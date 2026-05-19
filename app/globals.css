@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F2F1ED;
+    --bg-section: #FAFAF7;
+    --text-primary: #1F1F1F;
+    --text-secondary: #6B6B6B;
+    --accent-sage: #5F6F65;
+    --accent-beige: #D8CEC2;
+    --border-light: #E1E0DC;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-weight: 300;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 400;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-snap-x {
+    scroll-snap-type: x mandatory;
+  }
+  .scroll-snap-start {
+    scroll-snap-align: start;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent-sage);
+    outline-offset: 2px;
+  }
+}
+
+@media (max-width: 1023px) {
+  body {
+    padding-bottom: 68px;
+  }
+}
