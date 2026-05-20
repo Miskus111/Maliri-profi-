@@ -4,13 +4,13 @@
 
 @layer base {
   :root {
-    --bg-primary: #F2F1ED;
+    --bg-primary: #F6F5F1;
     --bg-section: #FAFAF7;
     --text-primary: #111111;
     --text-secondary: #4A4A4A;
     --accent-sage: #5F6F65;
     --accent-beige: #D8CEC2;
-    --border-light: #E1E0DC;
+    --border-light: #E3E1DC;
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }

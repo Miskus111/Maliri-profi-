@@ -86,10 +86,10 @@ export default function Services() {
               <h3 className="font-body font-semibold text-[17px] text-[#111111] group-hover:text-white mt-6 mb-2 transition-colors duration-400">
                 {s.title}
               </h3>
-              <p className="font-body text-[14px] text-[#4A4A4A] group-hover:text-white/80 leading-[1.6] transition-colors duration-400">
+              <p className="font-body text-[14px] text-[#242424] group-hover:text-white/85 leading-[1.6] transition-colors duration-400">
                 {s.description}
               </p>
-              <div className="mt-6 pt-5 border-t border-[#E1E0DC] group-hover:border-white/20 transition-colors duration-400">
+              <div className="mt-6 pt-5 border-t border-[#E3E1DC] group-hover:border-white/20 transition-colors duration-400">
                 <a
                   href="#contact"
                   onClick={(e) => {

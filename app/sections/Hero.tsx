@@ -66,7 +66,7 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(242,241,237,0.82) 0%, rgba(242,241,237,0.60) 35%, rgba(242,241,237,0.38) 65%, rgba(242,241,237,0.88) 100%)",
+              "linear-gradient(180deg, rgba(246,245,241,0.82) 0%, rgba(246,245,241,0.60) 35%, rgba(246,245,241,0.38) 65%, rgba(246,245,241,0.88) 100%)",
           }}
         />
       </div>

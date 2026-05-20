@@ -62,7 +62,7 @@ export default function Process() {
     <section
       id="process"
       ref={sectionRef}
-      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F2F1ED]"
+      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F6F5F1]"
     >
       <div className="max-w-[1280px] mx-auto">
         <div className="max-w-[600px] mb-16 lg:mb-24">
@@ -101,7 +101,7 @@ export default function Process() {
                 <h3 className="font-display text-[24px] lg:text-[32px] leading-[1.15] text-[#111111] mt-2 mb-4">
                   {step.title}
                 </h3>
-                <p className="font-body text-[15px] text-[#4A4A4A] leading-[1.7] max-w-[400px]">
+                <p className="font-body text-[15px] text-[#242424] leading-[1.7] max-w-[400px]">
                   {step.desc}
                 </p>
               </div>

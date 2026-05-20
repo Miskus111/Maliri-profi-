@@ -49,7 +49,7 @@ export default function Contact() {
           váš projekt
         </h2>
 
-        <p className="contact-el font-body text-[16px] lg:text-[18px] text-[#4A4A4A] leading-[1.65] mt-6 max-w-[460px] mx-auto">
+        <p className="contact-el font-body text-[16px] lg:text-[18px] text-[#242424] leading-[1.65] mt-6 max-w-[460px] mx-auto">
           Zavolejte nebo napište — připravíme vám nezávaznou kalkulaci zdarma.
           Odpovídáme do 24 hodin.
         </p>
@@ -79,7 +79,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="contact-el w-12 h-px bg-[#E1E0DC] mx-auto mt-14" />
+        <div className="contact-el w-12 h-px bg-[#E3E1DC] mx-auto mt-14" />
 
         <div className="contact-el flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mt-10">
           <div className="text-center">
@@ -90,7 +90,7 @@ export default function Contact() {
               Maňákova 753/20, Praha 14
             </p>
           </div>
-          <div className="w-px h-6 bg-[#E1E0DC] hidden sm:block" />
+          <div className="w-px h-6 bg-[#E3E1DC] hidden sm:block" />
           <div className="text-center">
             <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#5A5A5A] mb-0.5">
               IČO
@@ -99,7 +99,7 @@ export default function Contact() {
               44292279
             </p>
           </div>
-          <div className="w-px h-6 bg-[#E1E0DC] hidden sm:block" />
+          <div className="w-px h-6 bg-[#E3E1DC] hidden sm:block" />
           <div className="text-center">
             <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#5A5A5A] mb-0.5">
               Provozní doba
@@ -115,7 +115,7 @@ export default function Contact() {
             (badge) => (
               <span
                 key={badge}
-                className="font-body text-[12px] bg-[#F2F1ED] text-[#4A4A4A] px-3.5 py-1.5 rounded-full"
+                className="font-body text-[12px] bg-[#F6F5F1] text-[#4A4A4A] px-3.5 py-1.5 rounded-full"
               >
                 {badge}
               </span>

@@ -129,7 +129,7 @@ export default function Pricing() {
                 {p.note}
               </p>
 
-              <div className="w-full h-px bg-[#E1E0DC] my-7" />
+              <div className="w-full h-px bg-[#E3E1DC] my-7" />
 
               <ul className="space-y-3 text-left max-w-[240px] mx-auto">
                 {p.features.map((f) => (
@@ -138,7 +138,7 @@ export default function Pricing() {
                       size={15}
                       className="text-[#5F6F65] mt-0.5 flex-shrink-0"
                     />
-                    <span className="font-body text-[14px] text-[#4A4A4A]">
+                    <span className="font-body text-[14px] text-[#242424]">
                       {f}
                     </span>
                   </li>

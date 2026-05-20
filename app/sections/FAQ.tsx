@@ -65,7 +65,7 @@ export default function FAQ() {
     <section
       id="faq"
       ref={sectionRef}
-      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F2F1ED]"
+      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F6F5F1]"
     >
       <div className="max-w-[720px] mx-auto">
         <div className="text-center mb-12 lg:mb-20">
@@ -79,7 +79,7 @@ export default function FAQ() {
 
         <div>
           {items.map((item, i) => (
-            <div key={i} className="faq-item border-b border-[#E1E0DC]">
+            <div key={i} className="faq-item border-b border-[#E3E1DC]">
               <button
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between py-6 text-left group"
@@ -91,7 +91,7 @@ export default function FAQ() {
                   className={`flex-shrink-0 w-7 h-7 rounded-full border flex items-center justify-center transition-all duration-300 ${
                     open === i
                       ? "border-[#5F6F65] bg-[#5F6F65] text-white rotate-45"
-                      : "border-[#E1E0DC] text-[#5F6F65]"
+                      : "border-[#E3E1DC] text-[#5F6F65]"
                   }`}
                 >
                   <Plus size={14} />
@@ -102,7 +102,7 @@ export default function FAQ() {
                   open === i ? "max-h-48 pb-6" : "max-h-0"
                 }`}
               >
-                <p className="font-body text-[15px] text-[#4A4A4A] leading-[1.7]">
+                <p className="font-body text-[15px] text-[#242424] leading-[1.7]">
                   {item.a}
                 </p>
               </div>
