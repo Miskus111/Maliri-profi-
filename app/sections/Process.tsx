@@ -69,7 +69,7 @@ export default function Process() {
           <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
             Jak to funguje
           </p>
-          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
             Od konzultace po předání
           </h2>
         </div>
@@ -98,10 +98,10 @@ export default function Process() {
                 <span className="font-display text-[72px] lg:text-[96px] leading-none text-[#D8CEC2]">
                   {step.num}
                 </span>
-                <h3 className="font-display text-[24px] lg:text-[32px] leading-[1.15] text-[#1F1F1F] mt-2 mb-4">
+                <h3 className="font-display text-[24px] lg:text-[32px] leading-[1.15] text-[#111111] mt-2 mb-4">
                   {step.title}
                 </h3>
-                <p className="font-body font-light text-[15px] text-[#6B6B6B] leading-[1.7] max-w-[400px]">
+                <p className="font-body text-[15px] text-[#4A4A4A] leading-[1.7] max-w-[400px]">
                   {step.desc}
                 </p>
               </div>

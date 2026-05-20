@@ -82,20 +82,20 @@ export default function References() {
             <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
               Reference
             </p>
-            <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+            <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
               Co říkají naši zákazníci
             </h2>
           </div>
           <div className="hidden lg:flex gap-2">
             <button
               onClick={() => scroll("left")}
-              className="w-10 h-10 rounded-full border border-[#E1E0DC] flex items-center justify-center text-[#6B6B6B] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
+              className="w-10 h-10 rounded-full border border-[#E1E0DC] flex items-center justify-center text-[#4A4A4A] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
             >
               <ChevronLeft size={18} />
             </button>
             <button
               onClick={() => scroll("right")}
-              className="w-10 h-10 rounded-full border border-[#E1E0DC] flex items-center justify-center text-[#6B6B6B] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
+              className="w-10 h-10 rounded-full border border-[#E1E0DC] flex items-center justify-center text-[#4A4A4A] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
             >
               <ChevronRight size={18} />
             </button>
@@ -121,14 +121,14 @@ export default function References() {
                 />
               ))}
             </div>
-            <p className="font-body font-light text-[15px] lg:text-[16px] text-[#1F1F1F] leading-[1.7] mt-6">
+            <p className="font-body text-[15px] lg:text-[16px] text-[#242424] leading-[1.7] mt-6">
               {t.text}
             </p>
             <div className="mt-8 pt-5 border-t border-[#E1E0DC]/60">
-              <p className="font-body font-medium text-[14px] text-[#1F1F1F]">
+              <p className="font-body font-semibold text-[14px] text-[#111111]">
                 {t.name}
               </p>
-              <p className="font-body font-light text-[13px] text-[#6B6B6B]">
+              <p className="font-body text-[13px] text-[#5A5A5A]">
                 {t.loc}
               </p>
             </div>

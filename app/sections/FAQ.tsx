@@ -72,7 +72,7 @@ export default function FAQ() {
           <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
             Časté dotazy
           </p>
-          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
             Odpovědi na otázky
           </h2>
         </div>
@@ -84,7 +84,7 @@ export default function FAQ() {
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between py-6 text-left group"
               >
-                <span className="font-body font-medium text-[16px] lg:text-[18px] text-[#1F1F1F] pr-6 group-hover:text-[#5F6F65] transition-colors">
+                <span className="font-body font-semibold text-[16px] lg:text-[18px] text-[#111111] pr-6 group-hover:text-[#5F6F65] transition-colors">
                   {item.q}
                 </span>
                 <span
@@ -102,7 +102,7 @@ export default function FAQ() {
                   open === i ? "max-h-48 pb-6" : "max-h-0"
                 }`}
               >
-                <p className="font-body font-light text-[15px] text-[#6B6B6B] leading-[1.7]">
+                <p className="font-body text-[15px] text-[#4A4A4A] leading-[1.7]">
                   {item.a}
                 </p>
               </div>

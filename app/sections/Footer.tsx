@@ -30,22 +30,22 @@ export default function Footer() {
             <p className="font-body font-medium text-[17px] text-white">
               Malíři Profi
             </p>
-            <p className="font-body font-light text-[13px] text-white/40 mt-0.5">
+            <p className="font-body text-[13px] text-white/60 mt-0.5">
               David Telvak
             </p>
-            <p className="font-body font-light text-[13px] text-white/30 mt-3 max-w-[220px] leading-relaxed">
+            <p className="font-body text-[13px] text-white/55 mt-3 max-w-[220px] leading-relaxed">
               Profesionální malířské služby v Praze a okolí od roku 1992.
             </p>
             <div className="mt-5 space-y-2">
               <a
                 href="tel:+420737171208"
-                className="block font-body text-[13px] text-white/50 hover:text-white transition-colors"
+                className="block font-body text-[13px] text-white/70 hover:text-white transition-colors"
               >
                 +420 737 171 208
               </a>
               <a
                 href="mailto:telvakmal@seznam.cz"
-                className="block font-body text-[13px] text-white/50 hover:text-white transition-colors"
+                className="block font-body text-[13px] text-white/70 hover:text-white transition-colors"
               >
                 telvakmal@seznam.cz
               </a>
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/30 mb-4">
+            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/50 mb-4">
               Odkazy
             </p>
             <ul className="space-y-2.5">
@@ -65,7 +65,7 @@ export default function Footer() {
                       e.preventDefault();
                       scrollTo(l.href);
                     }}
-                    className="font-body text-[14px] text-white/60 hover:text-white transition-colors"
+                    className="font-body text-[14px] text-white/75 hover:text-white transition-colors"
                   >
                     {l.label}
                   </a>
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/30 mb-4">
+            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/50 mb-4">
               Služby
             </p>
             <ul className="space-y-2.5">
@@ -87,7 +87,7 @@ export default function Footer() {
                       e.preventDefault();
                       scrollTo("#services");
                     }}
-                    className="font-body text-[14px] text-white/60 hover:text-white transition-colors"
+                    className="font-body text-[14px] text-white/75 hover:text-white transition-colors"
                   >
                     {s}
                   </a>
@@ -97,13 +97,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/30 mb-4">
+            <p className="font-body text-[11px] uppercase tracking-[0.1em] text-white/50 mb-4">
               Právní informace
             </p>
             <ul className="space-y-2.5">
               {legal.map((l) => (
                 <li key={l}>
-                  <span className="font-body text-[14px] text-white/60 hover:text-white transition-colors cursor-pointer">
+                  <span className="font-body text-[14px] text-white/75 hover:text-white transition-colors cursor-pointer">
                     {l}
                   </span>
                 </li>
@@ -113,10 +113,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/[0.08] mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="font-body text-[12px] text-white/25">
+          <p className="font-body text-[12px] text-white/45">
             &copy; 2025 Malíři Profi. IČO: 44292279.
           </p>
-          <p className="font-body text-[12px] text-white/25">
+          <p className="font-body text-[12px] text-white/45">
             Všechna práva vyhrazena.
           </p>
         </div>

@@ -6,8 +6,8 @@
   :root {
     --bg-primary: #F2F1ED;
     --bg-section: #FAFAF7;
-    --text-primary: #1F1F1F;
-    --text-secondary: #6B6B6B;
+    --text-primary: #111111;
+    --text-secondary: #4A4A4A;
     --accent-sage: #5F6F65;
     --accent-beige: #D8CEC2;
     --border-light: #E1E0DC;
@@ -21,7 +21,7 @@
 
   body {
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     color: var(--text-primary);
     background-color: var(--bg-primary);
     -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    font-weight: 400;
+    font-weight: 500;
   }
 
   img {

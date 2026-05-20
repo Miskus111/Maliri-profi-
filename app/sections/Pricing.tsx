@@ -89,7 +89,7 @@ export default function Pricing() {
           <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
             Ceník
           </p>
-          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
             Transparentní ceny
           </h2>
         </div>
@@ -113,19 +113,19 @@ export default function Pricing() {
                 className="text-[#5F6F65] mx-auto"
                 strokeWidth={1.5}
               />
-              <h3 className="font-body font-medium text-[18px] text-[#1F1F1F] mt-5">
+              <h3 className="font-body font-semibold text-[18px] text-[#111111] mt-5">
                 {p.title}
               </h3>
 
               <div className="mt-4">
-                <span className="font-display text-[52px] lg:text-[56px] text-[#1F1F1F] leading-none">
+                <span className="font-display text-[52px] lg:text-[56px] text-[#111111] leading-none">
                   {p.price}
                 </span>
-                <span className="font-body text-[16px] text-[#6B6B6B] ml-1">
+                <span className="font-body text-[16px] text-[#5A5A5A] ml-1">
                   {p.unit}
                 </span>
               </div>
-              <p className="font-body font-light text-[13px] text-[#6B6B6B] mt-1">
+              <p className="font-body text-[13px] text-[#5A5A5A] mt-1">
                 {p.note}
               </p>
 
@@ -138,7 +138,7 @@ export default function Pricing() {
                       size={15}
                       className="text-[#5F6F65] mt-0.5 flex-shrink-0"
                     />
-                    <span className="font-body font-light text-[14px] text-[#6B6B6B]">
+                    <span className="font-body text-[14px] text-[#4A4A4A]">
                       {f}
                     </span>
                   </li>
@@ -165,7 +165,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        <p className="font-body font-light text-[14px] text-[#6B6B6B] text-center mt-10">
+        <p className="font-body text-[14px] text-[#5A5A5A] text-center mt-10">
           Každá zakázka je jedinečná. Cenu upřesníme po bezplatné obhlídce.
         </p>
       </div>
