@@ -65,33 +65,33 @@ export default function FAQ() {
     <section
       id="faq"
       ref={sectionRef}
-      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F2F1ED]"
+      className="w-full py-24 lg:py-36 px-5 lg:px-10 bg-[#F6F5F1]"
     >
       <div className="max-w-[720px] mx-auto">
         <div className="text-center mb-12 lg:mb-20">
           <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
             Časté dotazy
           </p>
-          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
             Odpovědi na otázky
           </h2>
         </div>
 
         <div>
           {items.map((item, i) => (
-            <div key={i} className="faq-item border-b border-[#E1E0DC]">
+            <div key={i} className="faq-item border-b border-[#E3E1DC]">
               <button
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between py-6 text-left group"
               >
-                <span className="font-body font-medium text-[16px] lg:text-[18px] text-[#1F1F1F] pr-6 group-hover:text-[#5F6F65] transition-colors">
+                <span className="font-body font-semibold text-[16px] lg:text-[18px] text-[#111111] pr-6 group-hover:text-[#5F6F65] transition-colors">
                   {item.q}
                 </span>
                 <span
                   className={`flex-shrink-0 w-7 h-7 rounded-full border flex items-center justify-center transition-all duration-300 ${
                     open === i
                       ? "border-[#5F6F65] bg-[#5F6F65] text-white rotate-45"
-                      : "border-[#E1E0DC] text-[#5F6F65]"
+                      : "border-[#E3E1DC] text-[#5F6F65]"
                   }`}
                 >
                   <Plus size={14} />
@@ -102,7 +102,7 @@ export default function FAQ() {
                   open === i ? "max-h-48 pb-6" : "max-h-0"
                 }`}
               >
-                <p className="font-body font-light text-[15px] text-[#6B6B6B] leading-[1.7]">
+                <p className="font-body text-[15px] text-[#242424] leading-[1.7]">
                   {item.a}
                 </p>
               </div>

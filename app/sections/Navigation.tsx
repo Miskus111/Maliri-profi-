@@ -41,7 +41,7 @@ export default function Navigation() {
           hidden ? "-translate-y-full" : "translate-y-0"
         } ${
           scrolled
-            ? "bg-[#F2F1ED]/90 backdrop-blur-xl shadow-[0_1px_0_rgba(0,0,0,0.04)]"
+            ? "bg-[#F6F5F1]/90 backdrop-blur-xl shadow-[0_1px_0_rgba(0,0,0,0.04)]"
             : "bg-transparent"
         }`}
       >
@@ -52,7 +52,7 @@ export default function Navigation() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="font-body font-medium text-[15px] tracking-tight text-[#1F1F1F]"
+            className="font-body font-medium text-[15px] tracking-tight text-[#111111]"
           >
             Malíři Profi
           </a>
@@ -66,7 +66,7 @@ export default function Navigation() {
                   e.preventDefault();
                   scrollTo(link.href);
                 }}
-                className="font-body text-[13px] tracking-[0.06em] text-[#6B6B6B] hover:text-[#1F1F1F] transition-colors duration-200"
+                className="font-body text-[13px] tracking-[0.06em] text-[#4A4A4A] hover:text-[#111111] transition-colors duration-200"
               >
                 {link.label}
               </a>
@@ -86,12 +86,12 @@ export default function Navigation() {
             </a>
             <a
               href="tel:+420737171208"
-              className="hidden md:flex w-9 h-9 rounded-full border border-[#E1E0DC] items-center justify-center text-[#6B6B6B] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
+              className="hidden md:flex w-9 h-9 rounded-full border border-[#E3E1DC] items-center justify-center text-[#4A4A4A] hover:border-[#5F6F65] hover:text-[#5F6F65] transition-colors"
             >
               <Phone size={15} />
             </a>
             <button
-              className="lg:hidden w-9 h-9 flex items-center justify-center text-[#1F1F1F]"
+              className="lg:hidden w-9 h-9 flex items-center justify-center text-[#111111]"
               onClick={() => setMobileOpen(!mobileOpen)}
             >
               {mobileOpen ? <X size={22} /> : <Menu size={22} />}
@@ -106,7 +106,7 @@ export default function Navigation() {
             className="absolute inset-0 bg-black/20 backdrop-blur-sm"
             onClick={() => setMobileOpen(false)}
           />
-          <div className="absolute top-16 left-0 right-0 bg-[#F2F1ED]/95 backdrop-blur-xl border-b border-[#E1E0DC]/60 p-6 flex flex-col gap-1">
+          <div className="absolute top-16 left-0 right-0 bg-[#F6F5F1]/95 backdrop-blur-xl border-b border-[#E3E1DC]/60 p-6 flex flex-col gap-1">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -115,7 +115,7 @@ export default function Navigation() {
                   e.preventDefault();
                   scrollTo(link.href);
                 }}
-                className="font-body text-[15px] text-[#1F1F1F] py-3 px-2 hover:text-[#5F6F65] transition-colors"
+                className="font-body text-[15px] text-[#111111] py-3 px-2 hover:text-[#5F6F65] transition-colors"
               >
                 {link.label}
               </a>

@@ -67,7 +67,7 @@ export default function Services() {
           <p className="font-body text-[12px] uppercase tracking-[0.12em] text-[#5F6F65] mb-4">
             Naše služby
           </p>
-          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#1F1F1F]">
+          <h2 className="font-display text-[32px] sm:text-[44px] lg:text-[60px] leading-[1.0] tracking-[-0.02em] text-[#111111]">
             Kompletní malířské řešení
           </h2>
         </div>
@@ -83,13 +83,13 @@ export default function Services() {
                 className="text-[#5F6F65] group-hover:text-white transition-colors duration-400"
                 strokeWidth={1.5}
               />
-              <h3 className="font-body font-medium text-[17px] text-[#1F1F1F] group-hover:text-white mt-6 mb-2 transition-colors duration-400">
+              <h3 className="font-body font-semibold text-[17px] text-[#111111] group-hover:text-white mt-6 mb-2 transition-colors duration-400">
                 {s.title}
               </h3>
-              <p className="font-body font-light text-[14px] text-[#6B6B6B] group-hover:text-white/70 leading-[1.6] transition-colors duration-400">
+              <p className="font-body text-[14px] text-[#242424] group-hover:text-white/85 leading-[1.6] transition-colors duration-400">
                 {s.description}
               </p>
-              <div className="mt-6 pt-5 border-t border-[#E1E0DC] group-hover:border-white/20 transition-colors duration-400">
+              <div className="mt-6 pt-5 border-t border-[#E3E1DC] group-hover:border-white/20 transition-colors duration-400">
                 <a
                   href="#contact"
                   onClick={(e) => {
@@ -98,7 +98,7 @@ export default function Services() {
                       .querySelector("#contact")
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="inline-flex items-center gap-1.5 font-body text-[13px] text-[#5F6F65] group-hover:text-white transition-colors duration-400"
+                  className="inline-flex items-center gap-1.5 font-body font-medium text-[13px] text-[#5F6F65] group-hover:text-white transition-colors duration-400"
                 >
                   Zjistit více{" "}
                   <ArrowUpRight

@@ -43,13 +43,13 @@ export default function Contact() {
           Kontakt
         </p>
 
-        <h2 className="contact-el font-display text-[40px] sm:text-[52px] lg:text-[68px] leading-[0.98] tracking-[-0.025em] text-[#1F1F1F]">
+        <h2 className="contact-el font-display text-[40px] sm:text-[52px] lg:text-[68px] leading-[0.98] tracking-[-0.025em] text-[#111111]">
           Pojďme začít
           <br />
           váš projekt
         </h2>
 
-        <p className="contact-el font-body font-light text-[16px] lg:text-[18px] text-[#6B6B6B] leading-[1.65] mt-6 max-w-[460px] mx-auto">
+        <p className="contact-el font-body text-[16px] lg:text-[18px] text-[#242424] leading-[1.65] mt-6 max-w-[460px] mx-auto">
           Zavolejte nebo napište — připravíme vám nezávaznou kalkulaci zdarma.
           Odpovídáme do 24 hodin.
         </p>
@@ -68,43 +68,43 @@ export default function Contact() {
           </a>
           <a
             href="mailto:telvakmal@seznam.cz"
-            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 border border-[#1F1F1F] text-[#1F1F1F] font-body font-medium text-[14px] px-8 py-4 rounded-full hover:bg-[#1F1F1F] hover:text-white hover:-translate-y-0.5 transition-all duration-300"
+            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 border border-[#111111] text-[#111111] font-body font-medium text-[14px] px-8 py-4 rounded-full hover:bg-[#111111] hover:text-white hover:-translate-y-0.5 transition-all duration-300"
           >
             <Mail size={17} />
             <span>telvakmal@seznam.cz</span>
             <ArrowRight
               size={15}
-              className="text-[#6B6B6B] group-hover:text-white group-hover:translate-x-0.5 transition-all duration-200"
+              className="text-[#4A4A4A] group-hover:text-white group-hover:translate-x-0.5 transition-all duration-200"
             />
           </a>
         </div>
 
-        <div className="contact-el w-12 h-px bg-[#E1E0DC] mx-auto mt-14" />
+        <div className="contact-el w-12 h-px bg-[#E3E1DC] mx-auto mt-14" />
 
         <div className="contact-el flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mt-10">
           <div className="text-center">
-            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#6B6B6B] mb-0.5">
+            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#5A5A5A] mb-0.5">
               Adresa
             </p>
-            <p className="font-body font-light text-[13px] text-[#1F1F1F]">
+            <p className="font-body text-[13px] text-[#111111]">
               Maňákova 753/20, Praha 14
             </p>
           </div>
-          <div className="w-px h-6 bg-[#E1E0DC] hidden sm:block" />
+          <div className="w-px h-6 bg-[#E3E1DC] hidden sm:block" />
           <div className="text-center">
-            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#6B6B6B] mb-0.5">
+            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#5A5A5A] mb-0.5">
               IČO
             </p>
-            <p className="font-body font-light text-[13px] text-[#1F1F1F]">
+            <p className="font-body text-[13px] text-[#111111]">
               44292279
             </p>
           </div>
-          <div className="w-px h-6 bg-[#E1E0DC] hidden sm:block" />
+          <div className="w-px h-6 bg-[#E3E1DC] hidden sm:block" />
           <div className="text-center">
-            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#6B6B6B] mb-0.5">
+            <p className="font-body text-[10px] uppercase tracking-[0.1em] text-[#5A5A5A] mb-0.5">
               Provozní doba
             </p>
-            <p className="font-body font-light text-[13px] text-[#1F1F1F]">
+            <p className="font-body text-[13px] text-[#111111]">
               Po–Pá 7:00–18:00
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function Contact() {
             (badge) => (
               <span
                 key={badge}
-                className="font-body text-[12px] bg-[#F2F1ED] text-[#6B6B6B] px-3.5 py-1.5 rounded-full"
+                className="font-body text-[12px] bg-[#F6F5F1] text-[#4A4A4A] px-3.5 py-1.5 rounded-full"
               >
                 {badge}
               </span>

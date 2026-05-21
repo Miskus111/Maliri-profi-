@@ -66,7 +66,7 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(242,241,237,0.82) 0%, rgba(242,241,237,0.60) 35%, rgba(242,241,237,0.38) 65%, rgba(242,241,237,0.88) 100%)",
+              "linear-gradient(180deg, rgba(246,245,241,0.82) 0%, rgba(246,245,241,0.60) 35%, rgba(246,245,241,0.38) 65%, rgba(246,245,241,0.88) 100%)",
           }}
         />
       </div>
@@ -77,11 +77,11 @@ export default function Hero() {
             Profesionální malířské služby v Praze od roku 1992
           </p>
 
-          <h1 className="font-display text-[42px] sm:text-[56px] lg:text-[80px] leading-[0.95] tracking-[-0.025em] text-[#1F1F1F]">
+          <h1 className="font-display text-[42px] sm:text-[56px] lg:text-[80px] leading-[0.95] tracking-[-0.025em] text-[#111111]">
             Precizní malířské práce, na které se můžete spolehnout
           </h1>
 
-          <p className="font-body font-light text-base lg:text-lg text-[#6B6B6B] leading-[1.65] max-w-[420px] mt-6">
+          <p className="font-body text-base lg:text-lg text-[#242424] leading-[1.65] max-w-[420px] mt-6">
             Malování bytů, domů a kanceláří v Praze a okolí. Třicet let
             zkušeností, čistá práce, férové ceny.
           </p>
@@ -101,7 +101,7 @@ export default function Hero() {
             </a>
             <a
               href="tel:+420737171208"
-              className="font-body font-medium text-[14px] border border-[#1F1F1F] text-[#1F1F1F] px-7 py-3.5 rounded-full hover:bg-[#1F1F1F] hover:text-white transition-all duration-200 text-center"
+              className="font-body font-medium text-[14px] border border-[#111111] text-[#111111] px-7 py-3.5 rounded-full hover:bg-[#111111] hover:text-white transition-all duration-200 text-center"
             >
               Zavolat nyní
             </a>
@@ -114,10 +114,10 @@ export default function Hero() {
               { num: "50 km", label: "okolí Prahy" },
             ].map((s) => (
               <div key={s.label}>
-                <p className="font-display text-[28px] lg:text-[32px] leading-none text-[#1F1F1F]">
+                <p className="font-display text-[28px] lg:text-[32px] leading-none text-[#111111]">
                   {s.num}
                 </p>
-                <p className="font-body font-light text-[13px] text-[#6B6B6B] mt-1">
+                <p className="font-body text-[13px] text-[#4A4A4A] mt-1">
                   {s.label}
                 </p>
               </div>
